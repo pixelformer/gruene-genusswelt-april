@@ -1,0 +1,273 @@
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 0 1rem;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+}
+
+.icons {
+    gap: 0.8rem;
+}
+
+/* Hero */
+.hero {
+    background: url(../img/gruene-genusswelt-hero.jpg) no-repeat;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.cta {
+    background-color: var(--base);
+    max-width: 800px;
+    height: auto;
+    flex-direction: column;
+    gap: 1.8rem;
+    margin-left: 10%;
+}
+
+.buttons-container {
+    gap: 0.8rem;
+}
+
+/* Neue Rezepte */
+.neue-rezepte {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card-container {
+    width: 75%;
+    /* auto-fit = Spaltenanzahl wird automatisch berechnet, minmax () = mindest Wert & maximaler Wert für die Spaltenbreite */
+    grid-template-columns: repeat(auto-fit, minmax(272px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    border: 1px solid var(--light);
+    box-shadow: 8px 8px 24px #E0E0E0;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1.2rem;
+}
+
+/* About Sektion */
+.about {
+    gap: 3.2rem;
+    flex-wrap: wrap;
+    background-color: var(--base);
+    align-items: center;
+    justify-content: center;
+}
+
+.about>div {
+    flex: 0 1 497px;
+}
+
+/* Newsletter Sektion */
+input,
+select,
+textarea,
+button {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.newsletter {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.newsletter-form {
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.checkboxes {
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkbox-1,
+.checkbox-2 {
+    gap: 0.8rem;
+    accent-color: grey;
+}
+
+.anmelden {
+    gap: 0.8rem;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.email {
+    flex-direction: column;
+    text-align: left;
+}
+
+.anmelden input[type='email'] {
+    width: 24rem;
+    height: 2.4rem;
+}
+
+.anmelden button {
+    height: 2.4rem;
+    line-height: 0;
+}
+
+/* focus & active states */
+input [type='email']:focus {
+    border: 1px solid white;
+    outline: 3px solid var(--primary);
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark);
+    color: white;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+footer i,
+footer a {
+    color: var(--light);
+}
+
+i {
+    font-size: 1.2rem;
+}
+
+.social-icons {
+    gap: 1.2rem;
+}
+
+/* Overlay */
+.overlay {
+    height: 100vh;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.overlay-content ul {
+    flex-direction: column;
+    gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.closebtn {
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+.button {
+    padding: 0.8rem 1.8rem;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+/* Media Queries */
+/* Tablet */
+@media screen and (width<=992px) {
+    .cta {
+        margin: 0 auto;
+        text-align: center;
+        width: 75%;
+        align-items: center;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons-container a {
+        width: 14rem;
+    }
+}
+
+/* Smartphone */
+@media screen and (width<=576px) {
+
+    nav .icons,
+    nav a {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger i {
+        font-size: 2rem;
+    }
+
+    .hero {
+        align-items: flex-end;
+    }
+
+    .cta {
+        width: 100%;
+        background-color: #FFF3E399;
+    }
+
+    /* Neue Rezepte */
+    .card-container {
+        width: 90%;
+    }
+
+    .card {
+        text-align: center;
+        align-items: center;
+    }
+
+    /* Newsletter */
+    .anmelden input[type="email"] {
+        width: 100%;
+    }
+
+    .email {
+        width: 100%;
+    }
+}

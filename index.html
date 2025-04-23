@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grüne Genusswelt</title>
+    <meta name="description" content="Genieße köstliche pflanzliche Gerichte">
+    <meta name="author" content="pixelformer">
+    <link rel="icon" type="image/x-icon" href="img/gruene-genusswelt-logo.png">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/variablen.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sections.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Navigation Sektion -->
+        <nav class="flex px-2">
+            <div class="logo"><img src="img/gruene-genusswelt-logo.png" alt="Das Logo der Grünen Genusswelt"></div>
+            <ul class="flex">
+                <li><a href="#rezepte">Rezepte</a></li>
+                <li><a href="#about">Über Uns</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <div class="icons flex">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-heart"></i>
+            </div>
+            <a class="hamburger" href="javascript:void(0)" onclick="openNav()"><i class="bi bi-list"></i></a>
+        </nav>
+    </header>
+    <!-- Overlay -->
+    <div id="myNav" class="flex overlay py-2 px-2 display-none">
+        <div class="overlay-content">
+            <a href="javascript:void(0)" onclick="closeNav()"><i class=" closebtn bi bi-x-lg"></i></a>
+            <br><br>
+            <ul class="flex">
+                <li><a href="#rezepte">Rezepte</a></li>
+                <li><a href="#about">Über Uns</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+    <main>
+
+        <!-- Hero Sektion -->
+        <section class="hero flex">
+            <div class="cta flex px-3 py-3">
+                <div class="cta-text">
+                    <h2>Entdecke die Vielfalt der nachhaltigen Küche</h2>
+                    <p>Genieße köstliche pflanzliche Gerichte für eine gesunde Ernährung und einen nachhaltigen
+                        Lebensstil.
+                    </p>
+                </div>
+                <div class="buttons-container flex">
+                    <a class="button btn-secondary" href="#about">Mehr Erfahren</a>
+                    <a class="button btn-primary" href="#rezepte">Rezepte Stöbern</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Neue Rezepte Sektion -->
+        <section class="neue-rezepte flex py-4" id="rezepte">
+            <h2>Neue Rezepte</h2>
+            <div class="card-container grid">
+                <div class="card">
+                    <div>
+                        <img src="img/rezept-1.jpg" alt="Quinoa-Power-Bowl mit geröstetem Gemüse">
+                        <h4>Quinoa-Power-Bowl mit geröstetem Gemüse</h4>
+                    </div>
+                    <a class="button btn-primary" href="">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="img/rezept-2.jpg" alt="Bunte Gemüsepfanne mit aromatischem Knoblauch-Dressing">
+                        <h4>Bunte Gemüsepfanne mit aromatischem Knoblauch-Dressing</h4>
+                    </div>
+                    <a class="button btn-primary" href="">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="img/rezept-3.jpg" alt="Vegane Lasagne mit cremiger Cashew-Bechamel">
+                        <h4>Vegane Lasagne mit cremiger Cashew-Bechamel</h4>
+                    </div>
+                    <a class="button btn-primary" href="">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="img/rezept-4.jpg" alt="Asiatische Bowl mit Teriyaki-Tofu und knackigem Gemüse">
+                        <h4>Asiatische Bowl mit Teriyaki-Tofu mit knackigem Gemüse</h4>
+                    </div>
+                    <a class="button btn-primary" href="">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                </div>
+        </section>
+
+        <!-- Über uns Sektion -->
+        <section class="about flex px-2 py-4" id="about">
+            <div>
+                <img src="img/about-profile-pic.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h1>Grüne Genusswelt</h1>
+                <h3>Leidenschaftliche Verfechter einer gesunden und nachhaltigen Ernährung</h3><br>
+                <p>Wir glauben fest daran, dass veganes Essen nicht nur gut für unseren Körper, sondern
+                    auch für unseren
+                    Planeten ist. Unsere Mission ist es, Menschen zu inspirieren und zu unterstützen, köstliche vegane
+                    Gerichte zu entdecken und in ihren Alltag zu integrieren.</p><br>
+                <p>Bei Grüne Genußwelt findest du eine vielfältige Auswahl an einfachen und kreativen veganen Rezepten,
+                    die sowohl erfahrene Köche als auch Anfänger ansprechen. Von herzhaften Hauptgerichten über
+                    erfrischende Salate bis hin zu verlockenden Desserts - unsere Rezepte sind voller Geschmack und
+                    Gesundheit.</p><br>
+                <p>Wir glauben, dass eine pflanzliche Ernährung nicht nur den Tieren, sondern auch der Umwelt
+                    zugutekommt. Indem wir tierische Produkte durch köstliche pflanzliche Alternativen ersetzen, tragen
+                    wir dazu bei, den ökologischen Fußabdruck zu verringern und eine nachhaltigere Zukunft für alle zu
+                    schaffen.</p>
+            </div>
+        </section>
+
+        <!-- Newsletter Sektion -->
+        <section class="newsletter text-align-center flex py-4" id="newsletter">
+            <div>
+                <h2>Abonniere unseren Newsletter</h2>
+                <h3>Jeden Tag ein neues Rezept in deiner Inbox. Lecker, nachhaltig und vielfältig.</h3>
+            </div>
+            <form class="newsletter-form flex" action="action.php" method="post">
+                <div class="checkboxes flex">
+                    <div class="checkbox-1"><input type="checkbox" name="weekly" id="weekly"><label for="weekly">
+                            Wöchentliche News</label></div>
+                    <div class="checkbox-2"><input type="checkbox" name="daily" id="daily"><label for="daily"> Tägliche
+                            Rezepte</label></div>
+                </div>
+                <div>
+                    <div class="anmelden flex">
+                        <div class="email flex">
+                            <label for="email">E-Mail Adresse</label>
+                            <input type="email" placeholder="E-Mail Adresse" name="email" id="email">
+                        </div>
+                        <button class="button btn-primary" type="submit">Anmelden <i class="bi bi-send"></i></button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="flex px-4 py-4" id="footer">
+        <div>
+            <h4>Kontakt</h4>
+            <p>Frankfurter Tor 93<br>10243 Berlin</p>
+            <p><a href="tel:0191234567">0191234567</a><br>
+                <a href="mailto:info@gruenergruß.com">info@gruenergruß.com</a>
+            </p>
+        </div>
+        <div>
+            <h4>Rechtliches</h4>
+            <p>
+                <a href="#">Datenschutz</a><br>
+                <a href="#">Impressum</a>
+            </p>
+        </div>
+        <div class="social-icons flex">
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-pinterest"></i></a>
+        </div>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").classList.add('display-block');
+            document.querySelector("body").style.overflow = "hidden";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").classList.add("display-none");
+            document.getElementById("myNav").classList.remove("display-block");
+            document.querySelector("body").style.overflow = "visible";
+        }
+    </script>
+
+</body>
+
+</html>

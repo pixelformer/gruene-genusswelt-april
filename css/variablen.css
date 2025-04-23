@@ -1,0 +1,22 @@
+:root {
+    --primary: #116156;
+    --secondary: #EDAA05;
+    --base: #FFF3E3;
+    --light: #E0E0E0;
+    --dark: #424242;
+    --body-text: 'Hind Madurai', Arial, Helvetica, sans-serif;
+    --display-text: 'Libre Baskerville', 'Times New Roman', serif;
+    --subheadings: 'Lora', 'Times New Roman', serif;
+    /* regular */
+    /* fw = fint weight */
+    --frw-regular: 400;
+    --fw-bold: 700;
+    /* kursiv */
+    --fs-italic: italic;
+    /* padding */
+    --p-1: 1rem;
+    --p-2: 2rem;
+    --p-3: 3.2rem;
+    --p-4: 4rem;
+
+}

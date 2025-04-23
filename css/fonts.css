@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url("../fonts/Hind_Madurai/Hind-Madurai-Bold.woff2") format('woff2'), url('../fonts/Hind_Madurai/Hind-Madurai-Bold.woff') format('woff');
+    /* Schriftschnitte */
+    font-weight: 700;
+    font-style: normal;
+    /* swap = austauschen */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url("../fonts/Hind_Madurai/Hind-Madurai-Light.woff2") format('woff2'), url('../fonts/Hind_Madurai/Hind-Madurai-Light.woff') format('woff');
+    /* Schriftschnitte */
+    font-weight: 300;
+    font-style: normal;
+    /* swap = austauschen */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url("../fonts/Hind_Madurai/Hind-Madurai-Regular.woff2") format('woff2'), url('../fonts/Hind_Madurai/Hind-Madurai-Regular.woff') format('woff');
+    /* Schriftschnitte */
+    font-weight: 400;
+    font-style: normal;
+    /* swap = austauschen */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url("../fonts/Libre_Baskerville/Libre-Baskerville-Bold.woff2") format('woff2'), url('../fonts/Libre_Baskerville/Libre-Baskerville-Bold.woff') format('woff');
+    /* Schriftschnitte */
+    font-weight: 700;
+    font-style: normal;
+    /* swap = austauschen */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url("../fonts/Libre_Baskerville/Libre-Baskerville.woff2") format('woff2'), url('../fonts/Libre_Baskerville/Libre-Baskerville.woff') format('woff');
+    /* Schriftschnitte */
+    font-weight: 400;
+    font-style: normal;
+    /* swap = austauschen */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url("../fonts/Lora/Lora-Regular.woff2") format('woff2'), url('../fonts/Lora/Lora-Regular.woff') format('woff');
+    /* Schriftschnitte */
+    font-weight: 400;
+    font-style: normal;
+    /* swap = austauschen */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url("../fonts/Lora/Lora-Italic.woff2") format('woff2'), url('../fonts/Lora/Lora-Italic.woff') format('woff');
+    /* Schriftschnitte */
+    font-weight: 400;
+    font-style: italic;
+    /* swap = austauschen */
+    font-display: swap;
+}
+
+h1 {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Lora';
+    font-style: italic;
+}
+
+h4 {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Hind Madurai';
+    font-weight: 400 700;
+}
+
+a {
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+}
